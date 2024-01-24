@@ -5,12 +5,14 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-      "start": "node js/main.js",
+      "start": "http-server -p 3000",
       "build": "node build.js"    
   },
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "firebase-tools": "^13.0.3"
+    "firebase-tools": "^13.0.3",
+    "http-server": "0.12.3"
+  
   }
 }
